@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://d1yglrri716ij"]
+
+[ext_resource type="PackedScene" uid="uid://bqd17plk6kcn7" path="res://Assetsz/body_block.tscn" id="1_2uu75"]
+[ext_resource type="Script" uid="uid://b7ulxc0egx7k1" path="res://Assetsz/node_3d.gd" id="1_ft1r2"]
+
+[node name="Node3D" type="Node3D" unique_id=39794]
+script = ExtResource("1_ft1r2")
+
+[node name="Body Block" parent="." unique_id=1713592087 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.982421, 0, 0)
+
+[node name="Body Block2" parent="." unique_id=499048848 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2818565, 0, 0)
+
+[node name="Body Block3" parent="." unique_id=1252944036 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.055459, 0, 0)
+
+[node name="Body Block4" parent="." unique_id=1326619938 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.046966, 0, 0)
+
+[node name="Body Block5" parent="." unique_id=1416084730 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.604278, 0, 0)
+
+[node name="Body Block6" parent="." unique_id=403992067 instance=ExtResource("1_2uu75")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.635051, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=783910117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 12)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=915233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.943224, 0)
